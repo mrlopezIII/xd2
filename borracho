@@ -1,0 +1,15 @@
+#define resistencia 12
+#define fotoresistencia 9
+int siuuuuuu = 100000;
+void setup()
+{
+pinMode (siuuuuuu, OUTPUT);
+
+}
+void loop()
+{
+  digitalWrite(siuuuuuu, HIGH);
+  delay(1000);//wait for 1000 millisecond(s)
+  digitalWrite(siuuuuuu, LOW);
+  delay(1000);//wait for 1000 millisecond(s)
+}
